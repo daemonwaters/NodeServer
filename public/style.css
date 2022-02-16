@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    height: 100vh;
+}
+
+header{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.logo h2{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+nav{
+    display: flex;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 0.4rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color:#fff;
+}
+
+article {
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
